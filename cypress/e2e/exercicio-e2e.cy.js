@@ -49,7 +49,7 @@ describe('Exercicio - Testes End-to-end - Fluxo de pedido', () => {
 
     });
 
-    it.only('Deve fazer um pedido na loja Ebac Shop de ponta a ponta com cadastro Faker', () => {
+    it('Deve fazer um pedido na loja Ebac Shop de ponta a ponta com cadastro Faker', () => {
         let nomeFaker = faker.name.firstName()
         let sobrenomeFaker = faker.name.lastName()
         let empresaFaker = faker.company.name()
