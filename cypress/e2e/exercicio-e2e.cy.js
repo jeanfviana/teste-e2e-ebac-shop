@@ -25,7 +25,7 @@ describe('Exercicio - Testes End-to-end - Fluxo de pedido', () => {
         var quantidade4 = 1
 
         cy.addProdutos('Abominable Hoodie', 'S', 'Red', quantidade1)
-        cy.addProdutos('Aero Daily Fitness Tee', 'L', 'Black', quantidade2)
+        cy.addProdutos('Ariel Roll Sleeve Sweatshirt', 'L', 'Green', quantidade2)
         cy.addProdutos('Aether Gym Pant', '34', 'Blue', quantidade3)
         cy.addProdutos('Apollo Running Short', '34', 'Black', quantidade4)
 
@@ -61,7 +61,7 @@ describe('Exercicio - Testes End-to-end - Fluxo de pedido', () => {
         var quantidade4 = 1
 
         cy.addProdutos('Abominable Hoodie', 'S', 'Red', quantidade1)
-        cy.addProdutos('Aero Daily Fitness Tee', 'L', 'Black', quantidade2)
+        cy.addProdutos('Ariel Roll Sleeve Sweatshirt', 'L', 'Green', quantidade2)
         cy.addProdutos('Aether Gym Pant', '34', 'Blue', quantidade3)
         cy.addProdutos('Apollo Running Short', '34', 'Black', quantidade4)
 
