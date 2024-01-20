@@ -20,7 +20,7 @@
   "bugs": {},
   "homepage": "",
   "devDependencies": {
-    "cypress": "^13.3.3"
+    "cypress": "^13.6.3"
   },
   "dependencies": {
     "@faker-js/faker": "^8.2.0",

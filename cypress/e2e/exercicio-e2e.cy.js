@@ -24,10 +24,10 @@ describe('Exercicio - Testes End-to-end - Fluxo de pedido', () => {
         var quantidade3 = 6
         var quantidade4 = 1
 
-        cy.addProdutos('Beaumont Summit Kit', 'S', 'Red', quantidade1)
-        cy.addProdutos('Bruno Compete Hoodie', 'L', 'Green', quantidade2)
-        cy.addProdutos('Frankie Sweatshirt', 'XS', 'White', quantidade3)
-        cy.addProdutos('Chaz Kangeroo Hoodie', 'M', 'Gray', quantidade4)
+        cy.addProdutos('Abominable Hoodie', 'S', 'Red', quantidade1)
+        cy.addProdutos('Aero Daily Fitness Tee', 'L', 'Black', quantidade2)
+        cy.addProdutos('Aether Gym Pant', '34', 'Blue', quantidade3)
+        cy.addProdutos('Apollo Running Short', '34', 'Black', quantidade4)
 
         cy.fixture("perfilcheckout").then(dados => {
             checkoutPage.realizarComprasemcadastro(
@@ -60,10 +60,10 @@ describe('Exercicio - Testes End-to-end - Fluxo de pedido', () => {
         var quantidade3 = 6
         var quantidade4 = 1
 
-        cy.addProdutos('Beaumont Summit Kit', 'S', 'Red', quantidade1)
-        cy.addProdutos('Bruno Compete Hoodie', 'L', 'Green', quantidade2)
-        cy.addProdutos('Frankie Sweatshirt', 'XS', 'White', quantidade3)
-        cy.addProdutos('Chaz Kangeroo Hoodie', 'M', 'Gray', quantidade4)
+        cy.addProdutos('Abominable Hoodie', 'S', 'Red', quantidade1)
+        cy.addProdutos('Aero Daily Fitness Tee', 'L', 'Black', quantidade2)
+        cy.addProdutos('Aether Gym Pant', '34', 'Blue', quantidade3)
+        cy.addProdutos('Apollo Running Short', '34', 'Black', quantidade4)
 
 
         checkoutPage.realizarCompraComCadastro(
